@@ -70,8 +70,12 @@ export default function Contact(): React.ReactElement {
 
       setSubmitted(true)
       setFormData({ name: '', email: '', message: '' })
-    } catch (error: any) {
-      setSubmitError(error.message || 'Something went wrong. Please try again.')
+    } catch (error) {
+      if (error instanceof Error) {
+        setSubmitError(error.message);
+      } else {
+        setSubmitError('Something went wrong. Please try again.');
+      }
     } finally {
       setIsSubmitting(false)
     }

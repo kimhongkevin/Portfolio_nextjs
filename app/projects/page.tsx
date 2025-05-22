@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { projectData } from "@/constants";
 import Image from "next/image";
-import { ChevronRightCircle,ChevronLeftCircle,CircleArrowLeft,CircleArrowRight } from "lucide-react";
+import { CircleArrowLeft,CircleArrowRight } from "lucide-react";
 
 export default function Projects() {
   const [activeIndex, setActiveIndex] = useState<number>(0);

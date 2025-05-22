@@ -7,12 +7,13 @@ import {useState} from 'react'
 import Image from 'next/image'
 import {navLinks,socialMedia} from '../constants/index'
 import { usePathname } from 'next/navigation'
-import * as motion from "motion/react-client"
+
 
 const Navbar = () => {
   
     const [isOpen, setIsOpen] = useState(false)
     const toggleMenu = () => setIsOpen(!isOpen)
+    const pathname = usePathname();
 
     return (
     <nav className="flex justify-between items-center h-full px-[10%] bg-white/40 shadow-md rounded-full mb-[5%]">
@@ -23,7 +24,7 @@ const Navbar = () => {
                     key={link.name} 
                     href={link.href} 
                     className={`text-lg font-semibold transition-colors duration-200 cursor-pointer ${
-                        usePathname() === link.href ? 'bg-sky-500 text-white rounded-md px-1 py-0.5' : 'text-slate-700'
+                        pathname === link.href ? 'bg-sky-500 text-white rounded-md px-1 py-0.5' : 'text-slate-700'
                     }`}
                 >
                     {link.name}
@@ -53,7 +54,7 @@ const Navbar = () => {
                 key={link.name}
                 href={link.href}
                 className={`text-lg font-semibold transition-colors duration-200 cursor-pointer ${
-                    usePathname() === link.href ? 'bg-white text-sky-500 rounded-md px-1 py-0.5' : 'text-slate-700'
+                    pathname === link.href ? 'bg-white text-sky-500 rounded-md px-1 py-0.5' : 'text-slate-700'
                 }`}
                 onClick={toggleMenu} // Close menu on link click
             >
