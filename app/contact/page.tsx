@@ -84,7 +84,7 @@ export default function Contact(): React.ReactElement {
   return (
     <section className="relative w-full py-10 px-6 sm:px-[10%]">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-sky-500 mb-12">Let me work with You</h2>
+
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-sky-500 mb-12">Please Get In Touch</h2>
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col lg:flex-row">
 
