@@ -26,7 +26,7 @@ export default function About() {
       case 'skills':
         return (
           <div className="animate-fadeIn">
-            <h2 className="text-2xl font-semibold mb-4 text-sky-600">Technologies I've Learned</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-sky-600">Technologies I have Learned</h2>
             <div className="flex flex-wrap gap-4 justify-center sm:justify-start">
               {aboutData.technologies.map(({ name, logo }) => (
                 <div key={name} className="flex flex-col items-center w-20 bg-white p-2 rounded-lg shadow-sm hover:shadow-md transition-shadow">
