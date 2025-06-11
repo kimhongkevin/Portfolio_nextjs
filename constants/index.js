@@ -37,7 +37,7 @@ export const heroData =  {
         description: "Welcome to my digital playground, where I'm exploring the world of frontend development and web design with curiosity and determination. As a junior developer and designer, I'm passionate about building clean, responsive interfaces and continuously improving my skills in both design and code. This portfolio showcases the projects I've worked on so far—each one a step forward in my journey to create user-friendly, visually engaging web experiences.",
         image: hero,
         buttonPortfolio: {text:'View My Work',link:'/portfolio'},
-        buttonCV:{text:'Download My CV',link:'http://google.drive.com'}
+        buttonCV:{text:'Download My CV',link:'http://drive.google.com/uc?export=download&id=1v3_tqTSfZmZnPr58BC0bM4iUnbppxsfJ'}
 }
 
 export const aboutData = {
