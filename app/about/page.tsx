@@ -10,7 +10,7 @@ export default function About() {
     { id: 'highlight', label: 'Highlight' },
     { id: 'skills', label: 'Skills' },
     { id: 'education', label: 'Education' },
-    { id: 'experience', label: 'Experience' }
+    // { id: 'experience', label: 'Experience' }
   ];
 
   const renderTabContent = () => {
@@ -57,24 +57,24 @@ export default function About() {
           </div>
         );
       
-      case 'experience':
-        return (
-          <div className="animate-fadeIn">
-            <h2 className="text-2xl font-semibold mb-4 text-sky-600">Job Experience</h2>
-            <div className="space-y-4">
-              {aboutData.jobExperience.map((job, index) => (
-                <div 
-                  key={index} 
-                  className="p-4 border-l-4 border-sky-500 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
-                >
-                  <h3 className="font-bold text-lg text-sky-700">{job.company}</h3>
-                  <p className="text-slate-700 italic">{job.jobTitle}</p>
-                  <p className="text-sm text-slate-500 mt-1">{job.period}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        );
+      // case 'experience':
+      //   return (
+      //     <div className="animate-fadeIn">
+      //       <h2 className="text-2xl font-semibold mb-4 text-sky-600">Job Experience</h2>
+      //       <div className="space-y-4">
+      //         {aboutData.jobExperience.map((job, index) => (
+      //           <div 
+      //             key={index} 
+      //             className="p-4 border-l-4 border-sky-500 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+      //           >
+      //             <h3 className="font-bold text-lg text-sky-700">{job.company}</h3>
+      //             <p className="text-slate-700 italic">{job.jobTitle}</p>
+      //             <p className="text-sm text-slate-500 mt-1">{job.period}</p>
+      //           </div>
+      //         ))}
+      //       </div>
+      //     </div>
+      //   );
       
       default:
         return null;

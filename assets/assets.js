@@ -20,11 +20,11 @@ import tailwindcss from './tailwindcss.svg';
 import typescript from './typescript.svg';
 import php from './php.svg'
 import dotnet from './dot-net.svg'
-import project1 from './project-1.jpg'
-import project2 from './project-2.jpg'
-import project3 from './project-3.jpg'
-import project4 from './project-4.jpg'
+import portfolio from './portfolio.png'
+import modern_bank from './modern_bank.png'
+import starbuck from './starbuck.png'
+import deplacemaison from './deplacemaison.png'
 import laravel from './laravel.svg'
 
 export {facebook,telegram,github,instagram,linkedin,hero,bootstrap,cpp,csharp,css,figma,git,html,javascript,
-    msql,nextjs,python,reactjs,tailwindcss,typescript,php,dotnet,project1,project2,project3,project4,laravel}
+    msql,nextjs,python,reactjs,tailwindcss,typescript,php,dotnet,portfolio,modern_bank,starbuck,deplacemaison,laravel}

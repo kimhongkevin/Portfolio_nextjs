@@ -1,5 +1,5 @@
 import {facebook,telegram,github,instagram,linkedin,hero,bootstrap,cpp,csharp,css,figma,git,html,javascript,
-  msql,nextjs,python,reactjs,tailwindcss,typescript,php,dotnet,project1,project2,project3,project4,laravel} from '../assets/assets'
+  msql,nextjs,python,reactjs,tailwindcss,typescript,php,dotnet,portfolio,modern_bank,starbuck,deplacemaison,laravel} from '../assets/assets'
 
 export const socialMedia = [
     {
@@ -148,19 +148,19 @@ export const aboutData = {
       period: "2024-present",
       degree: "Bachelor of Computer Science"
     },
-    {
-      institution: "Wuhan University (China)",
-      period: "2016-2020",
-      degree: "Bachelor of Civil Engineering"
-    },
-    {
-      institution: "Tongji University (China)",
-      period: "2015-2016",
-      degree: "Chinese Language Pre-University"
-    },
+    // {
+    //   institution: "Wuhan University (China)",
+    //   period: "2016-2020",
+    //   degree: "Bachelor of Civil Engineering"
+    // },
+    // {
+    //   institution: "Tongji University (China)",
+    //   period: "2015-2016",
+    //   degree: "Chinese Language Pre-University"
+    // },
     {
       institution: "Institute of Technology of Cambodia",
-      period: "2014-2015",
+      period: "2014-2017",
       degree: "Foundation Year of Bachelor"
     },
     {
@@ -179,31 +179,31 @@ export const aboutData = {
 export const projectData = [
   {
     id:1,
-    title:"Project 1",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facilis necessitatibus id repudiandae quibusdam, hic pariatur rerum, molestiae quos velit autem vel exercitationem asperiores dolores. Quae eaque ut, porro non vitae cum!",
-    img: project1,
-    link:"#",
+    title:"Portfolio Website",
+    desc: "This portfolio website is a showcase of my skills and projects as a frontend developer. It features a clean, responsive design built with Next.js and Tailwind CSS, highlighting my work in web development and design.",
+    img: portfolio,
+    link:"https://portfolio-nextjs-eight-self.vercel.app/",
   },
   {
     id:2,
-    title:"Project 2",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facilis necessitatibus id repudiandae quibusdam, hic pariatur rerum, molestiae quos velit autem vel exercitationem asperiores dolores. Quae eaque ut, porro non vitae cum!",
-    img: project2,
-    link:"#",
+    title:"Modern Bank",
+    desc: "This modern banking application is designed to provide users with a seamless and intuitive banking experience. Built with ReactJS and Tailwind CSS, it features a clean interface and responsive design, making it easy to manage finances on any device.",
+    img: modern_bank,
+    link:"https://kimhongkevin.github.io/bank_modern_app/",
   },
   {
     id:3,
-    title:"Project 3",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facilis necessitatibus id repudiandae quibusdam, hic pariatur rerum, molestiae quos velit autem vel exercitationem asperiores dolores. Quae eaque ut, porro non vitae cum!",
-    img: project3,
-    link:"#",
+    title:"Starbuck Reward Website",
+    desc: "This small project is a rewards program website for Starbucks customers. It is a static website built with Bootstrap.",
+    img: starbuck,
+    link:"https://kimhongkevin.github.io/starbuck_reward_website/",
   },
   {
     id:4,
-    title:"Project 4",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facilis necessitatibus id repudiandae quibusdam, hic pariatur rerum, molestiae quos velit autem vel exercitationem asperiores dolores. Quae eaque ut, porro non vitae cum!",
-    img: project4,
-    link:"#",
+    title:"Deplace Maison",
+    desc: "This small project is a website for a clothes store called Deplace Maison. It is a static website built with Bootstrap.",
+    img: deplacemaison,
+    link:"https://kimhongkevin.github.io/deplacemaison/",
   },
 ]
 
