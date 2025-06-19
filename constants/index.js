@@ -148,16 +148,16 @@ export const aboutData = {
       period: "2024-present",
       degree: "Bachelor of Computer Science"
     },
-    // {
-    //   institution: "Wuhan University (China)",
-    //   period: "2016-2020",
-    //   degree: "Bachelor of Civil Engineering"
-    // },
-    // {
-    //   institution: "Tongji University (China)",
-    //   period: "2015-2016",
-    //   degree: "Chinese Language Pre-University"
-    // },
+    {
+      institution: "Wuhan University (China)",
+      period: "2016-2020",
+      degree: "Bachelor of Civil Engineering"
+    },
+    {
+      institution: "Tongji University (China)",
+      period: "2015-2016",
+      degree: "Chinese Language Pre-University"
+    },
     {
       institution: "Institute of Technology of Cambodia",
       period: "2014-2017",
